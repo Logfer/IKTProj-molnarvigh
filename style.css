@@ -1,0 +1,26 @@
+aside{
+    float: left;
+}
+
+ul{
+    list-style-type :none;
+    margin: 0;
+    padding: 0;
+    width:60;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+
+li a{
+    display: block;
+    width: 60;
+}
+
+a{
+    text-align: center;
+    width:60;
+}
