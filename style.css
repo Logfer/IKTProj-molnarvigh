@@ -1,15 +1,23 @@
 aside{
     float: left;
+    background-color: grey;
+    font-family: Arial;
 }
 
 ul{
     list-style-type :none;
     margin: 0;
     padding: 0;
-    width:60;
+
 }
 
 a:link{
+    
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+a:visited{
     text-decoration: none;
     color: white;
     background-color: grey;
@@ -17,10 +25,24 @@ a:link{
 
 li a{
     display: block;
-    width: 60;
+}
+li hr{
+    height: 4;
+    color: black;
 }
 
 a{
     text-align: center;
-    width:60;
+    background-color: grey;
+}
+
+
+div{
+    background-color: grey;
+}
+
+a.img{
+    display: block;
+    width: 60;
+    height: 60;
 }
