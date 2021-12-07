@@ -27,7 +27,7 @@ li a{
     display: block;
 }
 li hr{
-    height: 4;
+    height: 3px;
     color: black;
 }
 
@@ -41,8 +41,9 @@ div{
     background-color: grey;
 }
 
-a.img{
-    display: block;
-    width: 60;
-    height: 60;
+img{
+
+    float:left;
+    width: 100%;
+    height: 100%;
 }
