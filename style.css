@@ -1,9 +1,14 @@
-aside{
+#aside{
     float: left;
     background-color: grey;
     font-family: Arial;
+    width: 400px;
 }
 
+#lotto
+{
+    width: 400px;
+}
 ul{
     list-style-type :none;
     margin: 0;
