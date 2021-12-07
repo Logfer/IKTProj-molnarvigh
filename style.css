@@ -1,7 +1,10 @@
+body{
+    font-family: Arial;
+}
+
 #aside{
     float: left;
     background-color: grey;
-    font-family: Arial;
     width: 600px;
 }
 
