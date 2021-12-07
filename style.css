@@ -21,12 +21,16 @@ ul{
 a:link{
     text-decoration: none;
     color: white;
-    background-color: grey;
+    background-color: #383838;
 }
 a:visited{
     text-decoration: none;
     color: white;
-    background-color: grey;
+    background-color: #383838;
+}
+
+li{
+    padding: 10px;
 }
 li{
     padding: 10px;
@@ -35,12 +39,12 @@ li{
 }
 a{
     text-align: center;
-    background-color: grey;
+    background-color: #383838;
 }
 
 
 div{
-    background-color: grey;
+    background-color: #383838;
 }
 
 a.img{
