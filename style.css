@@ -20,30 +20,25 @@ ul{
 a:link{
     text-decoration: none;
     color: white;
-    background-color: #383838;
+    background-color: grey;
 }
 a:visited{
     text-decoration: none;
     color: white;
-    background-color: #383838;
-}
-
-li{
-    padding: 10px;
+    background-color: grey;
 }
 li{
     padding: 10px;
     padding-left: 20px;
-    border-bottom: 1px groove darkgrey;
 }
 a{
     text-align: center;
-    background-color: #383838;
+    background-color: grey;
 }
 
 
 div{
-    background-color: #383838;
+    background-color: grey;
 }
 
 a.img{
@@ -51,3 +46,11 @@ a.img{
     width: 60px;
     height: 60px;
 }
+.line {
+    height:1px;
+    background:#fff;
+    border-top:solid 1px #000;
+    opacity:0.4;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
