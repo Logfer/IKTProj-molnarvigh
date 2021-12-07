@@ -1,18 +1,21 @@
-aside{
+#aside{
     float: left;
     background-color: grey;
     font-family: Arial;
+    width: 600px;
 }
 
+#lotto
+{
+    width: 600px;
+}
 ul{
-    list-style-type :none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 a:link{
-    
     text-decoration: none;
     color: white;
     background-color: grey;
