@@ -25,15 +25,11 @@ a:visited{
     color: white;
     background-color: grey;
 }
-
-li a{
-    display: block;
+li{
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 1px groove darkgrey;
 }
-li hr{
-    height: 4;
-    color: black;
-}
-
 a{
     text-align: center;
     background-color: grey;
@@ -46,6 +42,6 @@ div{
 
 a.img{
     display: block;
-    width: 60;
-    height: 60;
+    width: 60px;
+    height: 60px;
 }
