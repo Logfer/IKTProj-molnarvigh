@@ -1,6 +1,6 @@
 #aside{
     float: left;
-    background-color: grey;
+    
     font-family: Arial;
     width: 600px;
 }
@@ -18,35 +18,38 @@ ul{
 a:link{
     text-decoration: none;
     color: white;
-    background-color: grey;
+    background-color: #383838;
 }
 a:visited{
     text-decoration: none;
     color: white;
-    background-color: grey;
+    background-color: #383838;
+}
+
+li{
+    padding: 10px;
 }
 
 li a{
     display: block;
 }
-li hr{
-    height: 3px;
+div hr{
+    display: block;
+    height: 2px;
     color: black;
 }
 
 a{
     text-align: center;
-    background-color: grey;
+    background-color: #383838;
 }
 
 
 div{
-    background-color: grey;
+    background-color: #383838;
 }
 
 img{
-
-    float:left;
     width: 100%;
     height: 100%;
 }
