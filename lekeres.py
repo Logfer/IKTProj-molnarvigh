@@ -11,11 +11,19 @@ for sor in csvreader:
 
 file.close()
 
-# korábbi sorsolások
-# múlt heti
+# múlt heti sorsolások
 
-multheti_szamok_sor = str(sorok[0]).split(";")
+multheti_szamok_sor_1 = str(sorok[0]).split(";")
+multheti_szamok_sor_2 = str(sorok[1]).split(";")
 
+print(f"Múlt heti nyerőszámok: {multheti_szamok_sor_1[-5:]}")
+print(f"Előző heti nyerőszámok: {multheti_szamok_sor_2[-5:]}")
 
+# leggyakoribb számok
 
-print(f"Múlt heti nyerőszámok: {sorok[0]}")
+egysor = []
+
+for i in range(len(sorok)):
+    egysor = str(sorok[i]).split(";")[-5:]
+
+sorted()
