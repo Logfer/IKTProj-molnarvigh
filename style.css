@@ -1,14 +1,11 @@
 body{
     font-family: Arial;
 }
-
 #aside{
     float: left;
     width: 600px;
 }
-
-#lotto
-{
+#lotto{
     width: 600px;
 }
 ul{
@@ -16,7 +13,6 @@ ul{
     margin: 0;
     padding: 0;
 }
-
 a:link{
     text-decoration: none;
     color: white;
@@ -35,12 +31,9 @@ a{
     text-align: center;
     background-color: grey;
 }
-
-
 div{
     background-color: grey;
 }
-
 a.img{
     display: block;
     width: 60px;
@@ -53,4 +46,4 @@ a.img{
     opacity:0.4;
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
