@@ -11,10 +11,33 @@ body{
 {
     width: 600px;
 }
+#jobb{
+    background-color: white;
+    padding-left: 40px;
+}
+.oszlop {
+    flex: 20%;
+    padding: 5px;
+}
+.sor {
+    display: flex;
+    max-width: 100px;
+}
+/*.képsor{
+    white-space: nowrap
+    
+}
+.képsorelem{
+    list-style: none;
+    display: inline;
+    max-width: 100;
+    height: auto;
+}*/
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 a:link{
