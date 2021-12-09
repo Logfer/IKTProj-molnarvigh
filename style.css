@@ -1,35 +1,33 @@
 body{
     font-family: Arial;
 }
+span{
+    font-size: 60px;
+}
 #aside{
     float: left;
     width: 600px;
+    height: 890px;
 }
 #lotto{
     width: 600px;
+    height: 500px;
 }
 #jobb{
     background-color: white;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 .oszlop {
     flex: 20%;
     padding: 5px;
+    background-color: white;
+    white-space: nowrap;
 }
 .sor {
     display: flex;
-    max-width: 100px;
+    background-color: white;
+    white-space: nowrap;
 }
-/*.képsor{
-    white-space: nowrap
-    
-}
-.képsorelem{
-    list-style: none;
-    display: inline;
-    max-width: 100;
-    height: auto;
-}*/
 ul{
     list-style-type: none;
     margin: 0;
