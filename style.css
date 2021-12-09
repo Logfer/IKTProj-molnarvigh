@@ -6,20 +6,32 @@ span{
 }
 #aside{
     float: left;
-    width: 600px;
-    height: 890px;
+    width: 400px;
+    height: 892px;
 }
 #lotto{
-    width: 600px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 #jobb{
     background-color: white;
-    margin-left: 40px;
+    text-align: left;
+    margin-left: 450px;
+    padding: 30px;
+}
+#gyakori{
+    background-color: white;
+    text-align: left;
+    margin-left: 0px;
+    padding: 0px;
+}
+.semmi{
+    margin: 0px;
 }
 .oszlop {
     flex: 20%;
     padding: 5px;
+    margin: 0px;
     background-color: white;
     white-space: nowrap;
 }
