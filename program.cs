@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 
 namespace beolvas
 {
@@ -27,26 +28,16 @@ namespace beolvas
 
         private static void legkisebb_osszeg()
         {
+            /* Kiírja a összegeket növekvő sorrendben, így ki is lehet olvasni belőle a 3 legkisebb számot, amik nagyobbak 0-nál
             int[] osszegek = new int[3500];
 
             for (int i = 0; i < db; i++)
             {
                 osszegek[i] = nyeroszamok[i, 0] + nyeroszamok[i, 1] + nyeroszamok[i, 2] + nyeroszamok[i, 3] + nyeroszamok[i, 4];
             }
-            
-            Array.Sort(osszegek);
+            Array.Sort(osszegek);*/
 
-            int[] osszegek2 = new int[3500];
-
-            for (int i = 0; i < osszegek.Length; i++)
-            {
-                if (osszegek[i] != 0)
-                {
-                    osszegek2[i] = osszegek[i];
-                    Console.WriteLine(osszegek2[i]);
-                }
-            }
-
+            Console.WriteLine();
         }
 
         private static void beolvas()
