@@ -4,19 +4,25 @@ body{
 span{
     font-size: 60px;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
 #aside{
     float: left;
-    width: 400px;
+    width: 350px;
     height: 892px;
 }
 #lotto{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
 }
 #jobb{
     background-color: white;
     text-align: left;
-    margin-left: 450px;
+    margin-left: 400px;
     padding: 30px;
 }
 #gyakori{
@@ -29,13 +35,14 @@ span{
     margin: 0px;
 }
 .oszlop {
-    flex: 20%;
+    flex: 25%;
     padding: 5px;
-    margin: 0px;
+    width: 100%;
     background-color: white;
     white-space: nowrap;
 }
 .sor {
+    margin-right: 250px;
     display: flex;
     background-color: white;
     white-space: nowrap;
