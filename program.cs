@@ -23,19 +23,48 @@ namespace beolvas
         {
             beolvas();
             legkisebb_osszeg();
+            //leggyakoribb();
             Console.ReadKey();
+        }
+
+        private static void leggyakoribb()
+        {
+            
         }
 
         private static void legkisebb_osszeg()
         {
-            /* Kiírja a összegeket növekvő sorrendben, így ki is lehet olvasni belőle a 3 legkisebb számot, amik nagyobbak 0-nál
             int[] osszegek = new int[3500];
 
             for (int i = 0; i < db; i++)
             {
                 osszegek[i] = nyeroszamok[i, 0] + nyeroszamok[i, 1] + nyeroszamok[i, 2] + nyeroszamok[i, 3] + nyeroszamok[i, 4];
             }
-            Array.Sort(osszegek);*/
+
+            int legkisebb = osszegek[0];
+            int[] tomb_legkisebb = new int[3500];
+            int indeksz = 0;
+            for (int i = 0; i < osszegek.Length; i++)
+            {
+                if (legkisebb < osszegek[i])
+                {
+                    legkisebb = osszegek[i];
+                    tomb_legkisebb[indeksz] = legkisebb;
+                    indeksz++;
+                }
+            }
+
+            int[] tomb_legkisebb_rendez = new int[3500];
+            int indeksz_2 = 0;
+            for (int i = 0; i < tomb_legkisebb.Length; i++)
+            {
+                if (tomb_legkisebb[i] != 0)
+                {
+                    tomb_legkisebb_rendez[indeksz_2] = tomb_legkisebb[i];
+                    indeksz_2++;
+                }
+            }
+            Console.WriteLine($"Legkisebb összeg: {tomb_legkisebb[0]}, {tomb_legkisebb[1]}, {tomb_legkisebb[2]}");
 
             Console.WriteLine();
         }
