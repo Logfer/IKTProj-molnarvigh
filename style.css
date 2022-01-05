@@ -63,7 +63,7 @@ a:visited{
     color: white;
     background-color: grey;
 }
-li{
+.lista{
     padding: 10px;
     padding-left: 20px;
 }
