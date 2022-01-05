@@ -1,0 +1,26 @@
+X:\a\suli\113szft\prog\r\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.exe
+X:\a\suli\113szft\prog\r\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.deps.json
+X:\a\suli\113szft\prog\r\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.json
+X:\a\suli\113szft\prog\r\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.dev.json
+X:\a\suli\113szft\prog\r\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.dll
+X:\a\suli\113szft\prog\r\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.pdb
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csprojAssemblyReference.cache
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csproj.CoreCompileInputs.cache
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfoInputs.cache
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfo.cs
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.dll
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.pdb
+X:\a\suli\113szft\prog\r\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.genruntimeconfig.cache
+H:\113szft\IKT projektmunka\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.exe
+H:\113szft\IKT projektmunka\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.deps.json
+H:\113szft\IKT projektmunka\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.json
+H:\113szft\IKT projektmunka\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.dev.json
+H:\113szft\IKT projektmunka\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.dll
+H:\113szft\IKT projektmunka\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.pdb
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csprojAssemblyReference.cache
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfoInputs.cache
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfo.cs
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csproj.CoreCompileInputs.cache
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.dll
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.pdb
+H:\113szft\IKT projektmunka\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.genruntimeconfig.cache
