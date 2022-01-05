@@ -40,7 +40,7 @@ namespace beolvas
             {
                 osszegek[i] = nyeroszamok[i, 0] + nyeroszamok[i, 1] + nyeroszamok[i, 2] + nyeroszamok[i, 3] + nyeroszamok[i, 4];
             }
-
+            
             int legkisebb = osszegek[0];
             int[] tomb_legkisebb = new int[3500];
             int indeksz = 0;
