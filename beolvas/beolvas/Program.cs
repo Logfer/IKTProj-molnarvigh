@@ -34,63 +34,106 @@ namespace beolvas
 
         private static void legkisebb_osszeg()
         {
-            int[] osszegek = new int[db];
+
+            int[] legkisebb_sorozat = new int[5];
+            int[] masodik_legkisebb_sorozat = new int[5];
+            int[] harmadik_legkisebb_sorozat = new int[5];
+
+            int[] legkisebbek = new int[3];
+            int[] sor = new int[db];
+            int legkisebb = 8000;
+
+            for (int j = 0; j < db; j++)
+            {
+                for (int k = 0; k < 5; k++)
+                {
+                    sor[j] += nyeroszamok[j, k];
+                }
+            }
+
             for (int i = 0; i < db; i++)
             {
-                osszegek[i] = (nyeroszamok[i, 0] + nyeroszamok[i, 1] + nyeroszamok[i, 2] + nyeroszamok[i, 3] + nyeroszamok[i, 4]);
-            }
-
-            int[] hasznalhato = new int[db];
-
-            for (int i = 0; i < osszegek.Length; i++)
-            {
-                if (osszegek[i] > 0)
+                if (sor[i] < legkisebb)
                 {
-                    hasznalhato[i] = osszegek[i];
+                    legkisebb = sor[i];
                 }
             }
 
-            int legkisebb = hasznalhato[0];
-            int[] tomb_legkisebb = new int[db];
-            int indeksz = 0;
-            for (int i = 0; i < hasznalhato.Length; i++)
+            legkisebbek[0] = legkisebb;
+            legkisebb = 8000;
+            for (int i = 0; i < db; i++)
             {
-                if (hasznalhato[i] < legkisebb && hasznalhato[i] > 0)
+                if (sor[i] < legkisebb && sor[i] != legkisebbek[0])
                 {
-                    legkisebb = hasznalhato[i];
-                    tomb_legkisebb[indeksz] = legkisebb;
-                    indeksz++;
+                    legkisebb = sor[i];
                 }
             }
 
-            foreach (int value in tomb_legkisebb)
+            legkisebbek[1] = legkisebb;
+            legkisebb = 8000;
+            for (int i = 0; i < db; i++)
             {
-                Console.Write(value + " ");
-            }
-
-            Array.Sort<int>(tomb_legkisebb);
-            Array.Reverse(tomb_legkisebb);
-
-            foreach (int value in tomb_legkisebb)
-            {
-                Console.Write(value + " ");
-            }
-
-            Console.WriteLine($"Legkisebb összeg: {tomb_legkisebb[0]}, {tomb_legkisebb[1]}, {tomb_legkisebb[2]}");
-
-            /*
-            int[] tomb_legkisebb_rendez = new int[3500];
-            int indeksz_2 = 0;
-            for (int i = 0; i < tomb_legkisebb.Length; i++)
-            {
-                if (tomb_legkisebb[i] != 0)
+                if (sor[i] < legkisebb && sor[i] != legkisebbek[0] && sor[i] != legkisebbek[1])
                 {
-                    tomb_legkisebb_rendez[indeksz_2] = tomb_legkisebb[i];
-                    indeksz_2++;
+                    legkisebb = sor[i];
                 }
             }
 
-            Console.WriteLine();*/
+            legkisebbek[2] = legkisebb;
+            for (int i = 0; i < db; i++)
+            {
+                if (legkisebbek[0] == sor[i])
+                {
+                    for (int k = 0; k < 5; k++)
+                    {
+                        legkisebb_sorozat[k] = nyeroszamok[i, k];
+                    }
+                }
+            }
+
+            for (int i = 0; i < db; i++)
+            {
+                if (legkisebbek[1] == sor[i])
+                {
+                    for (int k = 0; k < 5; k++)
+                    {
+                        masodik_legkisebb_sorozat[k] = nyeroszamok[i, k];
+                    }
+                }
+            }
+
+            for (int i = 0; i < db; i++)
+            {
+                if (legkisebbek[2] == sor[i])
+                {
+                    for (int k = 0; k < 5; k++)
+                    {
+                        harmadik_legkisebb_sorozat[k] = nyeroszamok[i, k];
+                    }
+                }
+            }
+
+
+            Console.Write($"Első legkisebb összeg: {legkisebbek[0]}, nyerőszámok: ");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"{legkisebb_sorozat[i]} ");
+            }
+            Console.WriteLine();
+
+            Console.Write($"Második legkisebb összeg: {legkisebbek[1]}, nyerőszámok: ");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"{masodik_legkisebb_sorozat[i]} ");
+            }
+            Console.WriteLine();
+
+            Console.Write($"Harmadik legkisebb összeg: {legkisebbek[2]}, nyerőszámok: ");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"{harmadik_legkisebb_sorozat[i]} ");
+            }
+            Console.WriteLine();
         }
 
         private static void beolvas()
