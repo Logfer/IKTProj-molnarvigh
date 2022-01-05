@@ -10,6 +10,9 @@ h1{
 h2{
     font-size: 30px;
 }
+.elv{
+    height: 5px;
+}
 #aside{
     float: left;
     width: 350px;
@@ -31,21 +34,40 @@ h2{
     margin-left: 0px;
     padding: 0px;
 }
+#tortenet{
+    background-color: white;
+    font-family: Arial;
+}
 .semmi{
     margin: 0px;
 }
 .oszlop {
-    flex: 25%;
+    flex: 20%;
     padding: 5px;
     width: 100%;
     background-color: white;
     white-space: nowrap;
 }
+.oszlop2 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    white-space: nowrap;
+  }
 .sor {
-    margin-right: 250px;
+    margin-right: 100px;
     display: flex;
     background-color: white;
     white-space: nowrap;
+}
+.responsive{
+    width:100%;
+    height: auto;
+}
+.sor2::after {
+
+    clear: both;
+    display: table;
 }
 ul{
     list-style-type: none;
@@ -57,6 +79,15 @@ a:link{
     text-decoration: none;
     color: white;
     background-color: grey;
+}
+.t{
+    text-align: center;
+}
+#forraslink{
+    text-decoration: underline;
+    background-color: white;
+    font-family: Arial;
+    color: teal;
 }
 a:visited{
     text-decoration: none;
