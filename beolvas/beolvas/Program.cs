@@ -34,26 +34,51 @@ namespace beolvas
 
         private static void legkisebb_osszeg()
         {
-            int[] osszegek = new int[3500];
-
+            int[] osszegek = new int[db];
             for (int i = 0; i < db; i++)
             {
-                osszegek[i] = nyeroszamok[i, 0] + nyeroszamok[i, 1] + nyeroszamok[i, 2] + nyeroszamok[i, 3] + nyeroszamok[i, 4];
+                osszegek[i] = (nyeroszamok[i, 0] + nyeroszamok[i, 1] + nyeroszamok[i, 2] + nyeroszamok[i, 3] + nyeroszamok[i, 4]);
             }
 
-            int legkisebb = osszegek[0];
-            int[] tomb_legkisebb = new int[3500];
-            int indeksz = 0;
+            int[] hasznalhato = new int[db];
+
             for (int i = 0; i < osszegek.Length; i++)
             {
-                if (legkisebb < osszegek[i])
+                if (osszegek[i] > 0)
                 {
-                    legkisebb = osszegek[i];
+                    hasznalhato[i] = osszegek[i];
+                }
+            }
+
+            int legkisebb = hasznalhato[0];
+            int[] tomb_legkisebb = new int[db];
+            int indeksz = 0;
+            for (int i = 0; i < hasznalhato.Length; i++)
+            {
+                if (hasznalhato[i] < legkisebb && hasznalhato[i] > 0)
+                {
+                    legkisebb = hasznalhato[i];
                     tomb_legkisebb[indeksz] = legkisebb;
                     indeksz++;
                 }
             }
 
+            foreach (int value in tomb_legkisebb)
+            {
+                Console.Write(value + " ");
+            }
+
+            Array.Sort<int>(tomb_legkisebb);
+            Array.Reverse(tomb_legkisebb);
+
+            foreach (int value in tomb_legkisebb)
+            {
+                Console.Write(value + " ");
+            }
+
+            Console.WriteLine($"Legkisebb összeg: {tomb_legkisebb[0]}, {tomb_legkisebb[1]}, {tomb_legkisebb[2]}");
+
+            /*
             int[] tomb_legkisebb_rendez = new int[3500];
             int indeksz_2 = 0;
             for (int i = 0; i < tomb_legkisebb.Length; i++)
@@ -64,9 +89,8 @@ namespace beolvas
                     indeksz_2++;
                 }
             }
-            Console.WriteLine($"Legkisebb összeg: {tomb_legkisebb[0]}, {tomb_legkisebb[1]}, {tomb_legkisebb[2]}");
 
-            Console.WriteLine();
+            Console.WriteLine();*/
         }
 
         private static void beolvas()
