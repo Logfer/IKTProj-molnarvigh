@@ -19,17 +19,86 @@ namespace beolvas
         public static string[] kettes_nyer = new string[3500];
         public static int[,] nyeroszamok = new int[3500, 3500];
         public static int db = 0;
+        public static string[] valaszok = new string[3500];
         static void Main(string[] args)
         {
             beolvas();
             legkisebb_osszeg();
-            //leggyakoribb();
+            leggyakoribb();
+
             Console.ReadKey();
         }
 
         private static void leggyakoribb()
         {
-            
+            int szam = 0;
+            int legtobb = 0;
+            int[] gyakoriszamok = new int[3];
+            int[] leggyakoribbak = new int[3];
+            int[] szamlalo = new int[90];
+            int[] szamok = new int[90];
+
+            for (int i = 0; i < 90; i++)
+            {
+                szamlalo[i] = 0;
+                szamok[i] = i + 1;
+            }
+
+            for (int i = 0; i < db; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    for (int k = 0; k < 90; k++)
+                    {
+                        if (szamok[k] == nyeroszamok[i, j])
+                        {
+                            szamlalo[k]++;
+                        }
+                    }
+                }
+            }
+
+            for (int i = 0; i < 90; i++)
+            {
+                if (szamlalo[i] > legtobb)
+                {
+                    legtobb = szamlalo[i];
+                    szam = szamok[i];
+                }
+            }
+
+            gyakoriszamok[0] = szam;
+            leggyakoribbak[0] = legtobb;
+            legtobb = 0;
+
+            for (int i = 0; i < 90; i++)
+            {
+                if (szamlalo[i] > legtobb && szamlalo[i] != leggyakoribbak[0])
+                {
+                    legtobb = szamlalo[i];
+                    szam = szamok[i];
+                }
+            }
+
+            gyakoriszamok[1] = szam;
+            leggyakoribbak[1] = legtobb;
+            legtobb = 0;
+
+            for (int i = 0; i < 90; i++)
+            {
+                if (szamlalo[i] > legtobb && szamlalo[i] != leggyakoribbak[1] && szamlalo[i] != leggyakoribbak[0])
+                {
+                    legtobb = szamlalo[i];
+                    szam = szamok[i];
+                }
+            }
+
+            gyakoriszamok[2] = szam;
+            leggyakoribbak[2] = legtobb;
+            Console.WriteLine($"Első leggyakoribb szám: \t{gyakoriszamok[0]}, {leggyakoribbak[0]}db");
+            Console.WriteLine($"Második leggyakoribb szám: \t{gyakoriszamok[1]}, {leggyakoribbak[1]}db");
+            Console.WriteLine($"Harmadik leggyakoribb szám: \t{gyakoriszamok[2]}, {leggyakoribbak[2]}db");
+            Console.WriteLine("----------------------------------------------------------------------------");
         }
 
         private static void legkisebb_osszeg()
@@ -114,26 +183,27 @@ namespace beolvas
             }
 
 
-            Console.Write($"Első legkisebb összeg: {legkisebbek[0]}, nyerőszámok: ");
+            Console.Write($"Első legkisebb összeg: \t\t{legkisebbek[0]}, nyerőszámok: ");
             for (int i = 0; i < 5; i++)
             {
                 Console.Write($"{legkisebb_sorozat[i]} ");
             }
             Console.WriteLine();
 
-            Console.Write($"Második legkisebb összeg: {legkisebbek[1]}, nyerőszámok: ");
+            Console.Write($"Második legkisebb összeg: \t{legkisebbek[1]}, nyerőszámok: ");
             for (int i = 0; i < 5; i++)
             {
                 Console.Write($"{masodik_legkisebb_sorozat[i]} ");
             }
             Console.WriteLine();
 
-            Console.Write($"Harmadik legkisebb összeg: {legkisebbek[2]}, nyerőszámok: ");
+            Console.Write($"Harmadik legkisebb összeg: \t{legkisebbek[2]}, nyerőszámok: ");
             for (int i = 0; i < 5; i++)
             {
                 Console.Write($"{harmadik_legkisebb_sorozat[i]} ");
             }
             Console.WriteLine();
+            Console.WriteLine("----------------------------------------------------------------------------");
         }
 
         private static void beolvas()
@@ -168,12 +238,13 @@ namespace beolvas
                     db++;
                 }
                 be.Close();
-                Console.WriteLine($"Előző heti nyerőszámok {nyeroszamok[0, 0]}, {nyeroszamok[0, 1]}, {nyeroszamok[0, 2]}, {nyeroszamok[0, 3]}, {nyeroszamok[0, 4]}");
-                Console.WriteLine($"Múlt heti nyerőszámok {nyeroszamok[1, 0]}, {nyeroszamok[1, 1]}, {nyeroszamok[1, 2]}, {nyeroszamok[1, 3]}, {nyeroszamok[1, 4]}");
+                Console.WriteLine($"Előző heti nyerőszámok: \t{nyeroszamok[0, 0]}, {nyeroszamok[0, 1]}, {nyeroszamok[0, 2]}, {nyeroszamok[0, 3]}, {nyeroszamok[0, 4]}");
+                Console.WriteLine($"Múlt heti nyerőszámok: \t\t{nyeroszamok[1, 0]}, {nyeroszamok[1, 1]}, {nyeroszamok[1, 2]}, {nyeroszamok[1, 3]}, {nyeroszamok[1, 4]}");
+                Console.WriteLine("----------------------------------------------------------------------------");
             }
             catch (IOException)
             {
-                Console.WriteLine("rossz");
+                Console.WriteLine("Hiba beolvasás közben!");
             }
         }
     }
