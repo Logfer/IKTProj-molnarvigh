@@ -13,7 +13,7 @@ h2{
 #aside{
     float: left;
     width: 425px;
-    height: 900px;
+    height: 100vh;
 }
 #lotto{
     width: 425px;
@@ -24,6 +24,7 @@ h2{
     text-align: left;
     margin-left: 400px;
     padding: 30px;
+    height: 100vh;
 }
 #gyakori{
     background-color: white;
