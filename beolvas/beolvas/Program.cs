@@ -25,8 +25,24 @@ namespace beolvas
             beolvas();
             legkisebb_osszeg();
             leggyakoribb();
-
+            leghasonlobb();
             Console.ReadKey();
+        }
+
+        private static void leghasonlobb()
+        {/*
+            int[,] leghasonlobbak = new int[3500, 3500];
+
+            for (int i = 0; i < nyeroszamok.Length; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (nyeroszamok[i, j] )
+                    {
+
+                    }
+                }
+            }*/
         }
 
         private static void leggyakoribb()

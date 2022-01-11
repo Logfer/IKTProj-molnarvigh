@@ -37,3 +37,16 @@ H:\113szft\IKT projektmunka\projekt_mv\IKTProj-molnarvigh\beolvas\beolvas\obj\De
 H:\113szft\IKT projektmunka\projekt_mv\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.pdb
 H:\113szft\IKT projektmunka\projekt_mv\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.genruntimeconfig.cache
 H:\113szft\IKT projektmunka\projekt_mv\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csprojAssemblyReference.cache
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.exe
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.deps.json
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.json
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.dev.json
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.dll
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.pdb
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csprojAssemblyReference.cache
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfoInputs.cache
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfo.cs
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csproj.CoreCompileInputs.cache
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.dll
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.pdb
+H:\113szft\IKT projektmunka\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.genruntimeconfig.cache

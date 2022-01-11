@@ -105,3 +105,13 @@ a.img{
     margin-left: 20px;
     margin-right: 20px;
 }
+.kepek {
+    background-color: white;
+    white-space: nowrap;
+    list-style: none;
+    display: inline;
+}
+#legkisebb-kep {
+    width: 17%;
+    height: 15%;
+}

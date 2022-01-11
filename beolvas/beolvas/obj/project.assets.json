@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\113szft\\IKT projektmunka\\projekt_mv\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
+      "projectUniqueName": "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
       "projectName": "beolvas",
-      "projectPath": "H:\\113szft\\IKT projektmunka\\projekt_mv\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
+      "projectPath": "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
       "packagesPath": "C:\\Users\\vighakos\\.nuget\\packages\\",
-      "outputPath": "H:\\113szft\\IKT projektmunka\\projekt_mv\\IKTProj-molnarvigh\\beolvas\\beolvas\\obj\\",
+      "outputPath": "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vighakos\\AppData\\Roaming\\NuGet\\NuGet.Config",
