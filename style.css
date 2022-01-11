@@ -70,6 +70,15 @@ a:link{
 .t{
     text-align: center;
 }
+.nev{
+    font-size: large;
+    text-decoration: underline;
+    text-align: center;
+}
+.sajat{
+    font-size: larger;
+    text-align: center;
+}
 #forraslink{
     text-decoration: underline;
     background-color: white;
