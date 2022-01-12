@@ -27,7 +27,8 @@ h2{
     background-color: white;
     text-align: left;
     margin-left: 400px;
-    padding: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
     height: 100vh;
 }
 #gyakori{
@@ -39,6 +40,9 @@ h2{
 #tortenet{
     background-color: white;
     font-family: Arial;
+    margin-left: 400px;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 .semmi{
     margin: 0px;
