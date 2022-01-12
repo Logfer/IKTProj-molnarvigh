@@ -124,7 +124,7 @@ a.img{
     list-style: none;
     display: inline;
 }
-#legkisebb-kep {
-    width: 17%;
-    height: 15%;
+#kep {
+    width: 100px;
+    height: 100px;
 }
