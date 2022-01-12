@@ -1,2 +1,2 @@
 # IKTProj-molnarvigh
- https://vighakos.github.io/IKTProj-molnarvigh/
+ https://logfer.github.io/IKTProj-molnarvigh/
