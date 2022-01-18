@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {}
+    "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {}
   },
   "projects": {
-    "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {
+    "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
+        "projectUniqueName": "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
         "projectName": "beolvas",
-        "projectPath": "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
-        "packagesPath": "C:\\Users\\vighakos\\.nuget\\packages\\",
-        "outputPath": "H:\\113szft\\IKT projektmunka\\IKTProj-molnarvigh\\beolvas\\beolvas\\obj\\",
+        "projectPath": "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
+        "packagesPath": "C:\\Users\\molnarviktor\\.nuget\\packages\\",
+        "outputPath": "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vighakos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\molnarviktor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
