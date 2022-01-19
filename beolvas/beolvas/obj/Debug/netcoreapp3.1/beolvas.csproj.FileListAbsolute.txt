@@ -63,3 +63,17 @@ D:\Git. MV\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.cs
 D:\Git. MV\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.dll
 D:\Git. MV\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.pdb
 D:\Git. MV\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.genruntimeconfig.cache
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.exe
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.deps.json
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.json
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.runtimeconfig.dev.json
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.dll
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\bin\Debug\netcoreapp3.1\beolvas.pdb
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csproj.AssemblyReference.cache
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfoInputs.cache
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.AssemblyInfo.cs
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.csproj.CoreCompileInputs.cache
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.dll
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.pdb
+C:\Git projektek\IKTProj-molnarvigh\beolvas\beolvas\obj\Debug\netcoreapp3.1\beolvas.genruntimeconfig.cache

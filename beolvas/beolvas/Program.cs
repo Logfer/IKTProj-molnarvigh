@@ -53,6 +53,7 @@ namespace beolvas
             int[] leggyakoribbak = new int[3];
             int[] szamlalo = new int[90];
             int[] szamok = new int[90];
+            
 
             for (int i = 0; i < 90; i++)
             {
@@ -108,6 +109,17 @@ namespace beolvas
                     szam = szamok[i];
                 }
             }
+            for (int i = 0; i < 90; i++)
+            {
+                legtobb = 219;
+                if(szamlalo[i] < legtobb)
+                {
+                    legtobb = szamlalo[i];
+                    szam = szamok[i];
+                    Console.WriteLine($"{szam} gyakorisága: {legtobb}");
+                }
+                
+            }
 
             gyakoriszamok[2] = szam;
             leggyakoribbak[2] = legtobb;
@@ -115,6 +127,7 @@ namespace beolvas
             Console.WriteLine($"Második leggyakoribb szám: \t{gyakoriszamok[1]}, {leggyakoribbak[1]}db");
             Console.WriteLine($"Harmadik leggyakoribb szám: \t{gyakoriszamok[2]}, {leggyakoribbak[2]}db");
             Console.WriteLine("----------------------------------------------------------------------------");
+
         }
 
         private static void legkisebb_osszeg()

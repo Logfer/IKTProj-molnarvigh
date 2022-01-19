@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {}
+    "C:\\Git projektek\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {}
   },
   "projects": {
-    "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {
+    "C:\\Git projektek\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
+        "projectUniqueName": "C:\\Git projektek\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
         "projectName": "beolvas",
-        "projectPath": "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
-        "packagesPath": "C:\\Users\\molnarviktor\\.nuget\\packages\\",
-        "outputPath": "D:\\Git. MV\\IKTProj-molnarvigh\\beolvas\\beolvas\\obj\\",
+        "projectPath": "C:\\Git projektek\\IKTProj-molnarvigh\\beolvas\\beolvas\\beolvas.csproj",
+        "packagesPath": "C:\\Users\\Viktor\\.nuget\\packages\\",
+        "outputPath": "C:\\Git projektek\\IKTProj-molnarvigh\\beolvas\\beolvas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\molnarviktor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Viktor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
